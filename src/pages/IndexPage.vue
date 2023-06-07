@@ -52,9 +52,7 @@ onMounted(async () => {
           :key="pokemon.name"
           class="col col-6 col-sm-4 col-md-3 col-lg-2"
         >
-          <PokemonCard v-bind="pokemon">
-            ~
-          </PokemonCard>
+          <PokemonCard v-bind="pokemon" />
         </div>
       </div>
     </div>
